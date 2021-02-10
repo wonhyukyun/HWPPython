@@ -1,0 +1,1 @@
+#DRM이 걸린 xlsx파일을 pd.read_excel로 불러오시려면, win32com으로 엑셀을 열고 해당파일과 워크시트를 열어놓은 후에, "SelectAll" & "Copy" 하시고 pd.read_clipboard() 하면 깔끔하게 데이터프레임 생성이 됩니다.
